@@ -424,8 +424,8 @@ a {
 /*end id3 */
 /*starrt fooder*/
 .fooder {
-  background-color: #191919;
   position: relative;
+  background-color: #eee;
 }
 .fooder .container {
   display: flex;
@@ -434,7 +434,9 @@ a {
 .fooder .pa {
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: black;
+  position: relative;
+  top: 20px;
 }
 .fooder .pa p {
   left: -90px;
@@ -444,8 +446,41 @@ a {
 
 .fooder img {
   width: 140px;
-  background: white;
+  background: #eee;
   border-radius: 50%;
 }
 
 /*end fooder*/
+/*start refe*/
+.refe {
+  background-color: #000000e6;
+  position: relative;
+}
+.refe .container {
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
+.refe a button {
+  padding: 20px;
+  border-radius: 20px;
+  background: #0d85a0;
+  color: white;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.refe a button:hover {
+  background-color: #eee;
+  color: black;
+}
+hr {
+}
+.refe p {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+/*end refe*/
